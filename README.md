@@ -15,4 +15,7 @@
 
 
 <img src="app/Screenshots/device-2021-07-02-211800.png" width="200">  <img src="app/Screenshots/device-2021-07-02-211917.png" width="200">
-
+<img src="app/Screenshots/device-2021-07-02-211953.png" width="200">  <img src="app/Screenshots/device-2021-07-02-212047.png" width="200">
+<img src="app/Screenshots/device-2021-07-02-212116.png" width="200">  <img src="app/Screenshots/device-2021-07-02-212129.png" width="200">
+<img src="app/Screenshots/device-2021-07-02-212145.png" width="200">  <img src="app/Screenshots/device-2021-07-02-212158.png" width="200">
+<img src="app/Screenshots/device-2021-07-02-212219.png" width="200">  <img src="app/Screenshots/device-2021-07-02-212628.png" width="200"> 
