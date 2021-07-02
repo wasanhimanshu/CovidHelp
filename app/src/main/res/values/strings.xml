@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">CovidHelp</string>
+    <string name="welcome">Welcome</string>
+    <string name="login">Login to get started...</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="login_btn">Login</string>
+    <string name="forgot_text">Forgot Password?</string>
+    <string name="new_user">Not Have an Account? Register Here!</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="phone">Mobile No.</string>
+    <string name="already_user">Already a User? Click Here to Login!</string>
+    <string name="home">Home</string>
+    <string name="request">Request</string>
+    <string name="update">Updates</string>
+    <string name="profile">Profile</string>
+    <string name="enter_rtype">Enter Request Type</string>
+    <string name="enter_quant">Enter Requirement</string>
+    <string name="enter_blood_type">Enter Blood Group</string>
+    <string name="hospital">Enter Hospital</string>
+    <string name="state">Enter State</string>
+    <string name="desc">Enter Description</string>
+    <string name="logout">Log out</string>
+    <string name="Request"> Make a Request For</string>
+    <string name="requirement">Requirement</string>
+    <string name="blood_g">Blood group</string>
+    <string name="hospital1">Hospital</string>
+    <string name="state1">State</string>
+    <string name="desc1">Description</string>
+    <string name="call">Call</string>
+    <string name="search">Search</string>
+    <string name="my_req">My Requests</string>
+    <string name="phone_p">Mobile</string>
+    <string name="news">News</string>
+    <string name="tel_colon">tel:</string>
+    <string name="make_a_phone_call">Make a phone call</string>
+    <string-array name="request_type">
+        <item name="Blood"> Request For Blood</item>
+        <item name="Plasma">Request For Plasma</item>
+    </string-array>
+    <string-array name="blood_group">
+        <item name="A+">A+</item>
+        <item name="A-">A-</item>'
+        <item name="B+">B+</item>
+        <item name="B-">B-</item>
+        <item name="AB+">AB+</item>
+        <item name="AB-">AB-</item>
+        <item name="O+">O+</item>
+        <item name="O-">O-</item>
+    </string-array>
+    <string-array name="blood_amount">
+        <item name="1 bag">1 bag</item>
+        <item name="2 bag">2 bag</item>'
+        <item name="3 bag">3 bag</item>
+        <item name="4 bag">4 bag</item>
+        <item name="5 bag">5 bag</item>
+    </string-array>
+
+    <string name="prevent_covid">To prevent the spread of COVID-19: \n \t
+
+   1. Clean your hands often. Use soap and water, or an alcohol-based hand rub.\n \t
+
+2.Maintain a safe distance from anyone who is coughing or sneezing.\n
+3.Wear a mask when physical distancing is not possible.\n
+4.Don’t touch your eyes, nose or mouth.\n
+5.Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.\n
+6.Stay home if you feel unwell.\n
+
+7.If you have a fever, cough and difficulty breathing, seek medical attention.
+
+    </string>
+
+    <string name="reset">Reset</string>
+    <string name="resettext">After clicking the reset Button you will recive an Email on your register email Id for Resting the password..</string>
+
+
+</resources>

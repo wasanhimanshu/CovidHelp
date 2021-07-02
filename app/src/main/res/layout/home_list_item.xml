@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="5dp"
+    app:contentPadding="10dp"
+    app:cardElevation="5dp"
+    android:innerRadius="0dp"
+    android:shape="ring"
+    android:thicknessRatio="1.9"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/homeli_requestfortv"
+            android:padding="8dp"
+            android:fontFamily="@font/lato_regular"
+            android:textStyle="bold"
+            tools:text="Request for Plasma"
+            android:textSize="20sp"
+            />
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"
+           android:fontFamily="@font/lato_regular"
+           android:orientation="horizontal"
+           >
+           <TextView
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="@string/name"
+               android:fontFamily="@font/lato_regular"
+               android:textSize="16sp"
+               />
+           <TextView
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:id="@+id/homeli_nametv"
+               android:textSize="16sp"
+               android:layout_weight="2"
+               android:fontFamily="@font/lato_regular"
+               tools:text="Himanshu Wasan"
+               />
+       </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/requirement"
+                android:fontFamily="@font/lato_regular"
+                android:textSize="16sp"
+                tools:ignore="NestedWeights" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/homeli_amounttv"
+                android:textSize="16sp"
+                android:layout_weight="2"
+                tools:text="2 bags"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/lato_regular"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/blood_g"
+                android:fontFamily="@font/lato_regular"
+                android:textSize="16sp"
+                tools:ignore="NestedWeights" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/homeli_typetv"
+                android:textSize="16sp"
+                android:fontFamily="@font/lato_regular"
+                android:layout_weight="2"
+                tools:text="A+"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/hospital1"
+                android:fontFamily="@font/lato_regular"
+                android:textSize="16sp"
+                tools:ignore="NestedWeights" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/homeli_hospitaltv"
+                android:textSize="16sp"
+                android:layout_weight="2"
+                android:fontFamily="@font/lato_regular"
+                tools:text="Sir gangaram Hospital"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/state1"
+                android:fontFamily="@font/lato_regular"
+                android:textSize="16sp"
+                tools:ignore="NestedWeights" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/homeli_statetv"
+                android:textSize="16sp"
+                android:fontFamily="@font/lato_regular"
+                android:layout_weight="2"
+                tools:text="Delhi"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/desc1"
+                android:fontFamily="@font/lato_regular"
+                android:textSize="16sp"
+                tools:ignore="NestedWeights" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/homeli_desctv"
+                android:textSize="16sp"
+                android:layout_weight="2"
+                android:fontFamily="@font/lato_regular"
+                tools:text="for covid treament for my grandmother"
+                />
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/call_btn"
+            android:fontFamily="@font/lato_regular"
+            android:text="@string/call"
+            />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

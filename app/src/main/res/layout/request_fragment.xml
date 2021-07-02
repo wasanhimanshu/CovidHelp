@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/request"
+            android:fontFamily="@font/latobold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/req_name_til"
+            android:layout_margin="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/req_name_et"
+                android:textSize="18sp"
+                android:fontFamily="@font/lato_regular"
+                android:drawablePadding="5dp"
+                android:hint="@string/name"
+                android:padding="10dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/request_type"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:entries="@array/request_type"
+            android:spinnerMode="dropdown"
+            android:prompt="@string/enter_rtype"
+            android:padding="10dp"
+            android:fontFamily="@font/lato_regular"
+            android:layout_margin="8dp"
+            android:visibility="visible"
+            />
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/blood_type"
+            android:fontFamily="@font/lato_regular"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:entries="@array/blood_group"
+            android:spinnerMode="dropdown"
+            android:prompt="@string/enter_blood_type"
+            android:padding="10dp"
+            android:visibility="visible"
+            android:layout_margin="8dp"
+            />
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/blood_quant"
+            android:fontFamily="@font/lato_regular"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:entries="@array/blood_amount"
+            android:spinnerMode="dropdown"
+            android:prompt="@string/enter_quant"
+            android:padding="10dp"
+            android:visibility="visible"
+            android:layout_margin="8dp"
+            />
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/req_state_til"
+            android:layout_margin="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/req_state_et"
+                android:textSize="18sp"
+                android:fontFamily="@font/lato_regular"
+                android:drawablePadding="5dp"
+                android:hint="@string/state"
+                android:padding="10dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/req_hospital_til"
+            android:layout_margin="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/req_hospital_et"
+                android:textSize="18sp"
+                android:fontFamily="@font/lato_regular"
+                android:drawablePadding="5dp"
+                android:hint="@string/hospital"
+                android:padding="10dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/req_phone_til"
+            android:layout_margin="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/req_phone_et"
+                android:textSize="18sp"
+                android:fontFamily="@font/lato_regular"
+                android:drawablePadding="5dp"
+                android:hint="@string/phone"
+                android:padding="10dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/req_desc_til"
+            android:layout_margin="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/req_desc_et"
+                android:textSize="18sp"
+                android:maxLines="2"
+                android:fontFamily="@font/lato_regular"
+                android:drawablePadding="5dp"
+                android:hint="@string/desc"
+                android:padding="10dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/request_btn"
+            android:layout_margin="8dp"
+            android:text="@string/request"
+            android:fontFamily="@font/lato_regular"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

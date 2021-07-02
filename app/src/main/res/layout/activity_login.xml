@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LoginActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/lato_regular"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="@string/login"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/lato_regular"
+        android:textSize="18sp"
+        />
+
+   <com.google.android.material.textfield.TextInputLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/login_email_til"
+       android:layout_margin="10dp"
+       style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+       >
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/login_email_et"
+           android:textSize="18sp"
+           android:fontFamily="@font/lato_regular"
+           android:inputType="textEmailAddress"
+           android:drawablePadding="5dp"
+           android:hint="@string/email"
+           android:padding="10dp"
+          />
+
+
+   </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass_email_til"
+        android:layout_margin="10dp"
+        app:passwordToggleEnabled="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_pass_et"
+            android:textSize="18sp"
+            android:fontFamily="@font/lato_regular"
+            android:inputType="textEmailAddress"
+            android:drawablePadding="5dp"
+            android:hint="@string/pass"
+            android:padding="10dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_btn"
+        android:text="@string/login_btn"
+        android:fontFamily="@font/lato_regular"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgot_text_view"
+        android:text="@string/forgot_text"
+        android:textSize="15sp"
+        android:fontFamily="@font/lato_regular"
+        android:layout_margin="8dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newuser_text_view"
+        android:fontFamily="@font/lato_regular"
+        android:text="@string/new_user"
+        android:textSize="15sp"
+        android:layout_margin="8dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+
+</LinearLayout>
