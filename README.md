@@ -14,4 +14,4 @@
 </ul>
 
 
-<img src="app/ScreenShots/device-2021-01-18-132123.png" width="200">
+<img src="app/ScreenShots/device-2021-07-02-211800.png" width="200">
