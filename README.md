@@ -1,6 +1,6 @@
 # CovidHelp
-<p>CovidHelp App in initiative for people to donate or request plasma for the thier loved ones who are suffering from covid-19.</p>
-<p>user can also find state by state spread of covid-19 in India . also CovidHelp app keep user update with all the current news realted to covid -19.</p>
+<p>CovidHelp App in initiative for people to donate or request plasma for the their loved ones who are suffering from covid-19.</p>
+<p>user can also find state by state spread of covid-19 in India . also CovidHelp app keep user update with all the current news related to covid -19.</p>
 
 <p>Features</p>
 <ul>
